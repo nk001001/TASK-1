@@ -1,0 +1,102 @@
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.font {
+  font-family: "Bungee Spice", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner {
+  width: 100%;
+}
+/* section 1 start */
+.section-1-text {
+  width: 30%;
+  text-align: center;
+}
+.section-1-text > h3 {
+  color: rgb(47, 31, 135);
+  font-size: 22px;
+  padding-bottom: 60px;
+  font-weight: bold;
+}
+.section-1-text > p {
+  font-size: 15px;
+}
+.section-1-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* section 2 start */
+.section-2-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+.box > img {
+  width: 400px;
+  margin-bottom: 15px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box > p {
+  color: rgb(112, 28, 190);
+}
+/* section 2 end */
+
+/* section 3 start */
+.question {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 30px;
+  color: rgb(112, 28, 190);
+}
+.main-box {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-box {
+  width: 30%;
+}
+.fa-face-smile {
+  font-size: 30px;
+  color: rgb(112, 28, 190);
+  padding-right: 10px;
+  transition: all 1s;
+}
+.fa-face-smile:hover {
+  color: rgb(199, 49, 49);
+  cursor: pointer;
+  font-size: 40px;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.icon-text > h5 {
+  font-size: 23px;
+  color: rgb(112, 28, 190);
+}
+/* section 3 end */
+
+/* section 5 start */
+.section-5-p {
+  color: rgb(112, 28, 190);
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+.partniors {
+  display: flex;
+  justify-content: space-between;
+}
+.partniors > img {
+  width: 130px;
+}
